@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.backgr{
+  background-color:#E4EBF8;
+  width: auto;
+  height: auto;
+  box-shadow: 5px,10px,10px black;
+  border-radius: 20px;
+  border-color: rgba(176, 178, 179, 0.111);
+  margin: 0px;
+}
+
+.backgr2{
+  background-color: #E4EBF8;
+  width: auto;
+  height: auto;
+  box-shadow: 5px, 10px, 50px black;
+  border-radius: 20px;
+  border-color: rgb(120, 84, 90, 0.7);
+  
+}
+
+.backgr3{
+  background-color: #bdc4d0;
+  width: 80%;
+  height: auto;
+  box-shadow: 10px,10px,10px rgb(231, 231, 231);
+  border-radius: 10px;
+  border-color: white;
+
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.backgr3 li {
+  list-style-type: none;
+}
+
+.ortala{
+  width: 80%;
+}
